@@ -1,4 +1,4 @@
-# Day 2 Task
+# Task 2
 
 ## Input Devices
 
