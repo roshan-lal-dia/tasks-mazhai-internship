@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+.btn-group a{
+    background-color: #981ecd; 
+    color: white; 
+    padding: 10px 24px; 
+    width: 20%; 
+    display: block; 
+  }
+  
+  .btn-group a:not(:last-child) {
+    border-bottom: none; 
+  }
+  
