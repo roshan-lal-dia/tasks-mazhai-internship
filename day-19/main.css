@@ -20,6 +20,7 @@ h1 {
     width: 200px;
     display: inline-block;
     position: relative;
+    bottom: 100px;
 
 }
 
@@ -30,6 +31,7 @@ h1 {
     display: inline-block;
     position: relative;
     top: 200px;
+    margin: 50px;
 }
 
 .three {
@@ -38,6 +40,8 @@ h1 {
     height: 200px;
     width: 200px;
     display: inline-block;
+    position: relative;
+    bottom: 100px;
 }
 
 
@@ -48,7 +52,8 @@ h1 {
     display: inline-block;
     position: relative;
     top: 400px;
-    right: 613px;
+    right: 713px;
+
 }
 
 .five {
@@ -59,5 +64,6 @@ h1 {
     position: relative;
     top: 400px;
     right: 409px;
+
 
 }
