@@ -1,0 +1,44 @@
+.container{
+    background-color:rgb(0, 0, 0);
+    display: grid;
+    height:97vh;
+    grid-template-columns:1.5fr 2fr 2fr 2fr;
+    grid-template-rows: 12fr 45fr 40fr 17fr;
+    gap:5px;
+    grid-template-areas: "header header header header"
+    "nav main main main"  
+    "nav div-1 div-2 div-3 "
+    "nav footer footer footer";
+}
+#header{
+    background-color:rgb(110, 199, 21);
+    grid-area: header;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(238, 15, 15);
+    }
+#nav{
+    background-color:darkmagenta ;
+    grid-area: nav;
+}
+#main{
+    background-color:rgb(208, 238, 37) ;
+    grid-area: main;
+}
+#div-1{
+    background-color:rgb(186, 20, 122);
+    grid-area: div-1;
+}
+#div-2{
+    background-color:rgb(30, 213, 219);
+    grid-area: div-2;
+}
+#div-3{
+    background-color:rgb(74, 224, 139);
+    grid-area: div-3;
+}
+#footer{
+    background-color:rgb(234, 100, 244);
+    grid-area: footer;
+}
